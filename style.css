@@ -1,0 +1,185 @@
+/* Base Theme Look-Alike */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background: #ffffff;
+  color: #1e1e1e;
+  line-height: 1.65;
+}
+
+/* Layout */
+section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+h1, h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+p, li {
+  font-size: 16px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 30px;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #1e1e1e;
+  font-weight: 500;
+}
+
+/* Hero */
+.hero {
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero .hero-content {
+  background: rgba(0,0,0,0.45);
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  background: #1e1e1e;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+/* Images */
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #f5f5f5;
+  margin-top: 60px;
+}
+
+/* HERO */
+.trainer-hero {
+  background-image: url('trainer-hero.jpg'); /* replace with your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.trainer-hero-overlay {
+  background: rgba(0,0,0,0.45);
+  padding: 30px 40px;
+  border-radius: 10px;
+}
+
+/* TRAINER PROFILES */
+.trainer-profiles {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.trainer-card {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.trainer-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.trainer-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.trainer-special {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.trainer-message {
+  font-size: 16px;
+  font-style: italic;
+  color: #444;
+}
+
+/* CONTACT FORM */
+.trainer-form-section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.trainer-form-section form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
+}
+
+.trainer-form-section input,
+.trainer-form-section textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.trainer-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: top center;  /* focuses on face */
+  border-radius: 10px;
+}

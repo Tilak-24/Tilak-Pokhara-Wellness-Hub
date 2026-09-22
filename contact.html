@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact – Pokhara Wellness Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h2>Pokhara Wellness Hub</h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="service.html">Service</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="trainer-hero" style="background-image:url('images/tilak_gym.jpeg');">
+    <div class="trainer-hero-overlay">
+      <h2>Contact Your Personal Trainer</h2>
+      <p>Start your fitness journey with expert guidance tailored to your goals.</p>
+    </div>
+  </section>
+
+  <!-- TRAINER PROFILES -->
+  <section class="trainer-profiles">
+
+    <!-- Trainer 1: Tilak -->
+    <div class="trainer-card">
+      <img src="images/tilak-trainer.jpg" alt="Trainer Tilak">
+      <h3>Tilak – Personal Trainer</h3>
+      <p class="trainer-special">
+        • Weight Loss Specialist<br>
+        • Cardio Expert<br>
+        • Diet & Nutrition Coach<br>
+        • Personalized Meal Planning<br>
+        • Lifestyle Transformation Guide
+      </p>
+      <p class="trainer-message">
+        “Every step you take is a step closer to the strongest version of yourself.”
+      </p>
+    </div>
+
+    <!-- Trainer 2: Sangam -->
+    <div class="trainer-card">
+      <img src="images/sangam-trainer.jpg" alt="Trainer Sangam">
+      <h3>Sangam – Strength & Muscle Coach</h3>
+      <p class="trainer-special">
+        • Muscle Gain & Bulking Expert<br>
+        • Bodybuilding Champion<br>
+        • Strength Training Specialist<br>
+        • Diet & Nutrition Guidance<br>
+        • Progressive Overload Mentor
+      </p>
+      <p class="trainer-message">
+        “Your body can achieve anything — your mind just needs to believe it.”
+      </p>
+    </div>
+
+  </section>
+
+  <!-- CONTACT FORM -->
+  <section class="trainer-form-section">
+    <h2>Send a Message to Your Trainer</h2>
+
+    <form id="trainerForm">
+      <label>Your Name</label>
+      <input name="name" type="text" placeholder="Enter your full name">
+
+      <label>Your Email</label>
+      <input name="email" type="email" placeholder="Enter your email">
+
+      <label>Your Fitness Goal</label>
+      <input name="goal" type="text" placeholder="Weight loss, muscle gain, strength, etc.">
+
+      <label>Preferred Training Time</label>
+      <input name="time" type="text" placeholder="Morning, Afternoon, Evening">
+
+      <label>Message for Trainer</label>
+      <textarea name="message" rows="5" placeholder="Tell us what you need help with"></textarea>
+
+      <button class="btn" type="button" onclick="sendEmailToTrainer()">Send to Trainer</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p><strong>Location:</strong> 12 Lakeside Street, Pokhara, Nepal</p>
+    <p><strong>Hours:</strong> 5am — 10pm</p>
+    <p><strong>Contact:</strong> pokharawellnesshub100@gmail.com • 9817289890</p>
+  </footer>
+
+</body>
+</html>
